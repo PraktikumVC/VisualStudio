@@ -1,0 +1,17 @@
+﻿Der Buildvorgang wurde am 18.08.2015 17:06:45 gestartet.
+     1>Projekt "C:\Users\mens\Documents\Visual Studio 2015\Projects\ProjektX\ProjektX\ProjektX.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Public\VC\Praktikum\opencv\build\x64\vc12\..\..\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt Quelle1.cpp
+         Quelle1.cpp
+     1>Quelle1.cpp(29): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+     1>Quelle1.cpp(40): error C2039: "MserFeatureDetector": Ist kein Element von "cv"
+         C:\Users\Public\VC\Praktikum\opencv\build\include\opencv2/imgproc.hpp(206): note: Siehe Deklaration von "cv"
+     1>Quelle1.cpp(40): error C2065: "MserFeatureDetector": nichtdeklarierter Bezeichner
+     1>Quelle1.cpp(40): error C2146: Syntaxfehler: Fehlendes ";" vor Bezeichner "mser"
+     1>Quelle1.cpp(40): error C3861: "mser": Bezeichner wurde nicht gefunden.
+     1>Quelle1.cpp(41): error C3861: "mser": Bezeichner wurde nicht gefunden.
+     1>Die Erstellung des Projekts "C:\Users\mens\Documents\Visual Studio 2015\Projects\ProjektX\ProjektX\ProjektX.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:01.19
